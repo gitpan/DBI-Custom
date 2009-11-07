@@ -1,0 +1,27 @@
+---
+name: DBI-Custom
+version: 0.0101
+author:
+  - 'Yuki Kimoto <kimoto.yuki@gmail.com>'
+abstract: Customizable simple DBI
+license: perl
+resources:
+  license: ~
+requires:
+  DBI: 1.605
+  DBI::Custom::Query: 0.0101
+  DBI::Custom::Result: 0.0101
+  DBI::Custom::SQL::Template: 0.0101
+  Object::Simple: 2.0702
+build_requires:
+  Test::More: 0
+recommends:
+  DBD::SQLite: 1.25
+provides:
+  DBI::Custom:
+    file: lib/DBI/Custom.pm
+    version: 0.0101
+generated_by: Module::Build version 0.31012
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
